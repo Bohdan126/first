@@ -1,0 +1,79 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+html {height: 100%}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    color: #333;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 1em;
+    line-height: 135%;
+}
+
+a {
+    color: #d39494;
+    text-decoration: none;
+    -webkit-transition: all.6s ease;
+    transition: all.6s ease;
+}
+
+a:hover {
+    color:#efdea0;
+    -webkit-transition: all.6s ease;
+    transition: all.6s ease;
+}
+
+.clear {
+    clear: both;
+}
+
+/* Стилі для шапки */
+
+header {
+    width: 98%;
+    float: left;
+    padding: 1%;
+    background-color: #fafafa;
+    border-bottom: 2px solid silver;
+}
+
+header #logo{
+    width: 30%;
+    float: left;
+}
+header #logo a {
+    color: #939393;
+    font-size: 2em;
+    font-family: Times New Roman, sans-serif;
+}
+header #logo span{
+    color: #e36565
+}
+
+header #menuHead{
+    width: 34%;
+    float: left;
+}
+header #menuHead div {
+    float: left;
+    padding: 5px;
+    background-color: #c8c8c8;
+    border-radius: 5px;
+    color: white;
+}
+header #menuHead div:hover {
+    background-color: #e7e7e7;
+}
+header #regAuth{
+    width: 30%;
+    float: left;
+    text-align: right;
+    font-size: 1.2em;
+}
