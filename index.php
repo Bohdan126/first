@@ -1,28 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>Best since day one</title>
-  <link href="/css/styles.css" rel="stylesheet" type="text/css">
+    <?php
+        $title = "Best since day one";
+        require_once "blocks/head.php"
+    ?>
 </head>
 <body>
-  <header>
-    <div id="logo">
-      <a href="/" title="Main page"><span>N</span>ews</a>
-    </div>
-    <div id="menuHead">
-      <a href="/about.php">
-          <div style="margin-right: 5%">About</div>
-      </a>
-      <a href="/feedback.php">
-          <div>Contacts</div>
-      </a>
-    </div>
-    <div id="regAuth">
-      <a href="/reg.php">Registration</a>  |  <a href="auth.php">Authorization</a>
-    </div>
-  </header>
-
+    <?php require_once "blocks/header.php" ?>
   <div id="wrapper">
       <div id="leftCol">
           <div id="bigArticle">
@@ -101,32 +86,8 @@
               </a>
           </div>
       </div>
-      <div id="rightCol">
-        <div class="banner">
-            <img src="/img/banner_1.jpg" alt="Banner 1" title="Banner 1">
-        </div>
-        <div class="banner">
-            <img src="/img/banner_2.jpg" alt="Banner 2" title="Banner 2">
-        </div>
-      </div>
+    <?php require_once "blocks/rightCol.php"?>
   </div>
-
-  <footer>
-    <div id="social">
-        <a href="https://www.facebook.com/profile.php?id=100017334785880" title="Профіль в Facebook" target="_blank">
-           <img src="/img/facebook.png" alt="Facebook" title="Facebook">
-        </a>
-        <a href="https://www.linkedin.com/in/bohdan-mykhalchuk-81bb00158" title="Профіль в Linkedin" target="_blank">
-            <img src="/img/linkedin.png" alt="Linkedin" title="Linkedin">
-        </a>
-        <a href="https://twitter.com/b_mykhalchuk" title="Профіль в Twitter" target="_blank">
-            <img src="/img/twitter.png" alt="Twitter" title="Twitter">
-        </a>
-    </div>
-    <div id="rights">
-        Всі права захищені &copy; <?=date('Y')?><br>
-        Made by <div id="author">Rollins</div>
-    </div>
-  </footer>
+    <?php require_once "blocks/footer.php"?>
 </body>
 </html>
