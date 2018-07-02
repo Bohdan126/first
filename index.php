@@ -2,7 +2,8 @@
 <html>
 <head>
     <?php
-        $title = "Best since day one";
+
+    $title = "Best since day one";
         require_once "blocks/head.php"
     ?>
 </head>

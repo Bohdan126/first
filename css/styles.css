@@ -39,6 +39,7 @@ a:hover {
     clear: both;
 }
 
+
 /* Стилі для Header */
 
 header {
@@ -66,6 +67,7 @@ header #logo span{
 header #menuHead{
     width: 34%;
     float: left;
+
 }
 header #menuHead div {
     float: left;
@@ -83,6 +85,8 @@ header #regAuth{
     text-align: right;
     font-size: 1.2em;
 }
+
+
 /* Стилі для Всього документа */
 
 #wrapper {
@@ -90,6 +94,8 @@ header #regAuth{
     margin-left: 10%;
     float: left;
 }
+
+
 /* Стилі для лівої колонки */
 
 #wrapper #leftCol {
@@ -149,7 +155,64 @@ header #regAuth{
     float: left;
 }
 
+#wrapper #leftCol input {
+    width: 40%;
+    margin-left: 30%;
+    float: left;
+    border-radius: 5px;
+    border: 2px solid silver;
+    padding: 5px;
+    color: royalblue;
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+#wrapper #leftCol input:focus, #wrapper #leftCol textarea:focus {
+    border: 2px solid #f78080;
+}
+
+#wrapper #leftCol input#done:hover {
+    border: 2px solid #f8d881;
+    cursor: pointer;
+}
+
+#wrapper #leftCol textarea {
+    width: 50%;
+    height: 150px;
+    margin-left: 25%;
+    float: left;
+    border-radius: 5px;
+    border: 2px solid silver;
+    padding: 5px;
+    color: royalblue;
+    margin-top: 10px;
+    font-size: 1.2em;
+    resize: none;
+}
+
+
+/*  Стилі для сторінки About */
+
+#wrapper > #leftCol > #about_cm_punk {
+    width: 80%;
+    margin-left: 10%;
+    border: 1px solid silver;
+    background-color: #f4f4f4;
+    padding: 2%;
+}
+
+#wrapper > #leftCol > #about_cm_punk img {
+    display: block;
+    margin: 0 auto;
+}
+
+#wrapper > #leftCol > #about_cm_punk h2 {
+    font-family: Times New Roman, sans-serif;
+}
+
+
 /* Стилі для правої колонки */
+
 #wrapper #rightCol {
     width: 20%;
     float: left;
@@ -163,6 +226,7 @@ header #regAuth{
 
 
 /* Стилі для Footer */
+
 footer{
     width: 98%;
     padding: 1%;
